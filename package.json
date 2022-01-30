@@ -1,0 +1,29 @@
+{
+  "name": "hdi-deploy-poststart",
+  "version": "0.1.0",
+  "description": "Executes SQL script or scripts after standard hdi-deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinStenzig/hdi-deploy-poststart.git"
+  },
+  "keywords": [
+    "hdi-deploy",
+    "poststart",
+    "prestart"
+  ],
+  "author": "martin@stenzig.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinStenzig/hdi-deploy-poststart/issues"
+  },
+  "homepage": "https://github.com/MartinStenzig/hdi-deploy-poststart#readme",
+  "dependencies": {
+    "@sap/hana-client": "^2",
+    "@sap/xsenv": "^3"
+  }
+}
