@@ -1,6 +1,6 @@
 {
   "name": "hdi-deploy-poststart",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Executes SQL script or scripts after standard hdi-deploy",
   "main": "index.js",
   "scripts": {
