@@ -1,6 +1,7 @@
 # hdi-deploy-poststart
-[![npm version](https://badge.fury.io/js/hdi-deploy-poststart.svg)](https://badge.fury.io/js/exec-below)
-[![npm downloads](https://img.shields.io/npm/dm/hdi-deploy-poststart)](https://www.npmjs.com/package/exec-below)
+[![npm version](https://badge.fury.io/js/hdi-deploy-poststart.svg)](https://badge.fury.io/js/hdi-deploy-poststart)
+[![npm downloads](https://img.shields.io/npm/dm/hdi-deploy-poststart)](https://www.npmjs.com/package/hdi-deploy-poststart)
+![GitHub CodeQL Check](https://github.com/MartinStenzig/hdi-deploy-poststart/actions/workflows/codeql-analysis.yml/badge.svg)
 
 This module provides a library that can be used as poststart script for the [@sap/hdi-deploy](https://www.npmjs.com/package/@sap/hdi-deploy) library.
 
