@@ -12,11 +12,11 @@ It executes all commands in files containes in the /poststart directory.
     "name": "deploy",
     "dependencies": {
         "@sap/hdi-deploy": "^4.*",
-        "@martinstenzig/hdi-deploy-poststart": "^1.*"
+        "hdi-deploy-poststart": "^1.*"
     },
     "scripts": {
         "start": "node node_modules/@sap/hdi-deploy/deploy.js",
-        "ppoststart": "npx @martinstenzig/hdi-deploy-poststart" 
+        "poststart": "npx hdi-deploy-poststart" 
     }
 }
 ```

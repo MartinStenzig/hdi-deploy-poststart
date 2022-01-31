@@ -1,8 +1,11 @@
 {
   "name": "hdi-deploy-poststart",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "Executes SQL script or scripts after standard hdi-deploy",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "exec-below": "./bin/cli.js"
+  },
   "scripts": {
     "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
