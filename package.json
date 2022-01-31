@@ -1,13 +1,13 @@
 {
   "name": "hdi-deploy-poststart",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Executes SQL script or scripts after standard hdi-deploy",
-  "main": "lib/index.js",
+  "main": "index.js",
   "bin": {
     "exec-below": "./bin/cli.js"
   },
   "scripts": {
-    "start": "node lib/index.js",
+    "start": "node index.js",
     "test": "npm run lint",
     "lint": "eslint .  --ext .js",
     "lint-fix": "eslint --fix .  --ext .js"
@@ -29,7 +29,8 @@
   "homepage": "https://github.com/MartinStenzig/hdi-deploy-poststart#readme",
   "dependencies": {
     "@sap/hana-client": "^2",
-    "@sap/xsenv": "^3"
+    "@sap/xsenv": "^3",
+    "dotenv": "^15"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
